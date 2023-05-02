@@ -15,7 +15,7 @@ struct Student {
 
 
 fn display_grades(student: @Student, index: usize) {
-    // don't mind these lines! They are required when
+    // don't mind these lines! They are required
     // running recursive functions.
     match gas::withdraw_gas() {
         Option::Some(_) => {},
