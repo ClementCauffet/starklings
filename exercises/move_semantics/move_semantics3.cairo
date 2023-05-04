@@ -11,6 +11,8 @@ use array::SpanTrait;
 use clone::Clone;
 use debug::PrintTrait;
 
+//init global
+
 fn main() {
     let arr0 = ArrayTrait::new();
 
