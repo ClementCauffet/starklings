@@ -8,7 +8,6 @@ use array::SpanTrait;
 use debug::PrintTrait;
 use clone::Clone;
 
-
 fn main() {
     let arr0 = ArrayTrait::new();
 
