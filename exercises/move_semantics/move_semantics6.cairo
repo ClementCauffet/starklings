@@ -26,5 +26,5 @@ fn get_value(number: @Number) -> u32 {
 fn set_value(mut number: Number) {
     let mut value = 2222222_u32;
     number = Number { value };
-    number.value.print();
+    //number.value.print();
 }
